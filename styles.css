@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f3f3f3;
+}
+
+.card{
+    height: 450px;
+    width: 35%;
+    background-image: url(http://lojasaraiva.vteximg.com.br/arquivos/ids/12111428/1004549911.jpg?v=637142257144300000);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 25px;
+    color:white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card h2 {
+    transition: 1s;
+    background-color:#535353;
+    padding:2px 20px;
+    margin:0;
+    text-align: start;
+}
+
+.div-content{
+    padding:20px;
+    background-color: rgba(25, 25, 25 , 0.8);
+    border-radius: 0px 0px 25px 25px;
+}
+
+.card p {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-align: start;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: inset 0 0 5em black;
+    cursor:pointer;
+}
+
+.card:hover h2{
+    transition: 1s;
+    background-color:red;
+}
